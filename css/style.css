@@ -98,11 +98,6 @@ nav{
     transition: all 0.3s ease;
 }
 
-ion-icon{
-    text-shadow: 3px 4px 5px #fff;
-
-}
-
 .carousel-button:hover {
     transform: scale(1.2);
 }
@@ -140,10 +135,10 @@ ion-icon{
 }
 
 .drink-img {
-    width: 300px;
+    width: 320px;
     height: 400px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 h1 {
