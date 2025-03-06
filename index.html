@@ -8,11 +8,11 @@
 </head>
 <body>
     <main>
-        <section class="hero">
+        <section class="hero whisky">
             <nav>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link" data-drink="whisky">Whisky Sour</a>
+                        <a href="#" class="nav-link active" data-drink="whisky">Whisky Sour</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-drink="caipirinha">Caipirinha Sedução</a>
@@ -24,9 +24,9 @@
             </nav>
 
             <div class="carousel">
-                <button>V</button>
+                <button class="carousel-button prev"><ion-icon name="chevron-back-outline"></ion-icon></button>
                 <div class="carousel-container">
-                    <div>
+                    <div class="carousel-track">
                         <div class="carousel-slide">
                             <div class="drink">
                                 <img src="" alt="" class="drink-img">
@@ -47,13 +47,13 @@
                         </div>
                     </div>
                 </div>
-                <button>A</button>
+                <button class="carousel-button next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
             </div>
         </section>
 
         <section class="recipes">
             <!-- Receita 1: Whisky Sour -->
-            <div class="recipe" data-drink="whisky">
+            <div class="recipe active" data-drink="whisky">
                 <h2>Receita: Whisky Sour</h2>
                 <div class="recipe-content">
                     <div class="ingredients">
@@ -146,5 +146,8 @@
               </div>
         </footer>
     </main>
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
