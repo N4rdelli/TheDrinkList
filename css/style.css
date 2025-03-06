@@ -35,7 +35,6 @@ nav{
     width: 100%;
     padding: 0.75rem 0rem;
     z-index: 999;
-    top: 0;
     height: 2rem;
 }
 
@@ -120,32 +119,37 @@ nav{
     min-width: 100%;
     display: flex;
     justify-content: center;
+    column-gap: 2rem;
     align-items: center;
 }
 
 .drink {
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    border-radius: 20px;
-    padding: 40px;
+    height: 29rem;
+    width: 19rem;
+    box-sizing: border-box;
+
+    padding: 2rem;
+    margin: 0 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); */
-    backdrop-filter: blur(5px);
 }
 
 .drink-img {
-    width: 320px;
-    height: 400px;
+    height: 19rem;
+    width: 15rem;
+    box-sizing: border-box;
     object-fit: cover;
     border-radius: 20px;
 }
 
 h1 {
     font-family: "Bebas Neue", sans-serif;
+    width: max-content;
     font-size: 4rem;
-    margin-top: 20px;
-    color: white;
+    margin-top: 1rem;
+    color: #fff;
     text-shadow: 2px 2px 4px #9999994d;
 }
 
