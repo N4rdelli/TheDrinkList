@@ -55,6 +55,14 @@ nav{
     transition: all 0.1s ease-in-out;
 }
 
+.nav-item .nav-link:hover{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
 .nav-item .nav-link.active{
     color: #fff;
     font-weight: 600;
@@ -141,7 +149,19 @@ nav{
     width: 15rem;
     box-sizing: border-box;
     object-fit: cover;
-    border-radius: 20px;
+    animation: floatingAnimation 3s infinite;
+}
+
+@keyframes floatingAnimation{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-0.8rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 h1 {
