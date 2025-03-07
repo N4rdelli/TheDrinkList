@@ -18,4 +18,5 @@ Um site de receitas interativo com carrossel dinâmico, receitas detalhadas e um
 ```
 
 3. Abra o arquivo  **index.html**  no navegador
+
 Você pode simplesmente dar um duplo clique no index.html ou usar o Live Server do VS Code para uma melhor experiência.
