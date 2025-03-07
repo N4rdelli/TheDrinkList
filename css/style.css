@@ -20,15 +20,15 @@ body {
 }
 
 .hero.whisky {
-    background: radial-gradient(circle, rgba(115,238,183,1) 0%, rgba(52,196,219,1) 100%);
+    background: radial-gradient(circle, #73eeb7 0%, #34c4db 100%);
 }
 
 .hero.caipirinha {
-    background: radial-gradient(circle, rgba(255,164,128,1) 0%, rgba(233,30,99,1) 100%);
+    background: radial-gradient(circle, #ffa480 0%, #e91e63 100%);
 }
 
 .hero.margarita {
-    background: radial-gradient(circle, rgba(240,206,69,1) 0%, rgba(241,166,15,1) 100%);
+    background: radial-gradient(circle, #f0ce45 0%, #f1a60f 100%);
 }
 
 nav{
